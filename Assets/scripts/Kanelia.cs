@@ -100,7 +100,14 @@ public class Kanelia : MonoBehaviour {
     }
 
     /** Propagate backward for correction of neural network */
-    void BackPropagate() {
+    void BackPropagate()
+    {
+        // TODO
+    }
+
+    /** Propagate backward for correction of neural network by pulling computation from the start */
+    void BackPropagatePulling()
+    {
         // TODO
     }
 
